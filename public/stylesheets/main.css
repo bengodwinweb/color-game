@@ -1,0 +1,54 @@
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+
+.jumbotron {
+    background-color: steelblue;
+    padding: 20px;
+    text-transform: uppercase;
+    color: white;
+    transition: all 0.3s;
+}
+
+#stripe {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: steelblue;
+    text-transform: uppercase;
+    border: 0;
+    transition: all 0.3s;
+}
+
+.tile {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.33%;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.active {
+    background-color: steelblue;
+    color: white;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+button:focus {
+    outline: none;
+}
